@@ -4,7 +4,7 @@
 
 ---
 
-* Bbase
+* Base
 * Mid
 * Advance
 
