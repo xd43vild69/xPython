@@ -1,10 +1,9 @@
-print("Goodbye, World!")
-
 # Comment python
 
 def myFunction():
     for x in range(3, 8, 3):
         print(x)    
+    print("Goodbye, World!")
 
 def myFunction2():
     mylist = []
