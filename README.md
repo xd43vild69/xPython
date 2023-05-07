@@ -4,6 +4,18 @@
 
 ---
 
+Base
+
+    Script for collection projects on load app
+    Add elements to those collections
+    Script for Workspace
+    Script for external Addons used
+    Reverse enginering to PH add on
+    Reverse enginering to BG
+    Reverse enginering Daz material add on
+
+---
+
 Blender Addons to generate quick referece images integrated with ChatGPT & Stable Diffusion
 
 	base:minimal poligonal structures
@@ -22,9 +34,9 @@ Anatomic tools re-using Daz elements & standard library organization
 
 Goals
     
-    Base: short term
-    Mid: mid term & priority
-    Advance: long term
+    Base: short term or priority
+    Mid: mid term or useful
+    Advance: long term or expert mode
 
 ---
 
