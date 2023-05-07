@@ -1,6 +1,21 @@
-# xPython
+# xPython for Blender
 
-### Python
+### Python `Blender` IA Daz ChatGPT
+
+---
+
+Blender Addons to generate quick referece images integrated with ChatGPT & Stable Diffusion
+
+	base:minimal poligonal structures
+    base:script tools as BlenderGuppy
+    base:geometry nodes
+
+---
+
+Anatomic tools re-using Daz elements & standard library organization
+	import objects
+	pose objects
+	cloth weights
 
 ---
 
