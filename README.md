@@ -13,24 +13,27 @@ Blender Addons to generate quick referece images integrated with ChatGPT & Stabl
 ---
 
 Anatomic tools re-using Daz elements & standard library organization
-	import objects
-	pose objects
-	cloth weights
+
+	mid:import objects
+	mid:pose objects
+	mid:cloth weights
 
 ---
 
-* Base
-* Mid
-* Advance
+Goals
+    
+    Base: short term
+    Mid: mid term & priority
+    Advance: long term
 
 ---
 
-init vids 2x
+flashbacks vids 2x
 
 https://www.youtube.com/watch?v=TbcEqkabAWU
 https://www.youtube.com/watch?v=Kp4Mvapo5kc
 
+---
+`Great Programmers Write Debuggable Code`
 
 init date : 2023-04-30
-
-` Great Programmers Write Debuggable Code
