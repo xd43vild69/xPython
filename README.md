@@ -6,21 +6,21 @@
 
 Base
 
-    Script for collection projects on load app
-    Add elements to those collections
-    Script for Workspace
-    Script for external Addons used
-    Reverse enginering to PH add on
-    Reverse enginering to BG
-    Reverse enginering Daz material add on
+    [x] Script for collection projects on load app
+    [x] Add elements to those collections
+    [] Script for Workspace
+    [] Script for external Addons used
+    [] Reverse enginering to PH add on
+    [] Reverse enginering to BG
+    [] Reverse enginering Daz material add on
 
 ---
 
 Blender Addons to generate quick referece images integrated with ChatGPT & Stable Diffusion
 
-	base:minimal poligonal structures
-    base:script tools as BlenderGuppy
-    base:geometry nodes
+	[] base:minimal poligonal structures
+    [] base:script tools as BlenderGuppy
+    [] base:geometry nodes
 
 ---
 
