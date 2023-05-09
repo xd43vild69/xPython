@@ -8,8 +8,8 @@ Base
 
     [x] Script for collection projects on load app
     [x] Add elements to those collections
-    [] Script for Workspace
-    [] Script for external Addons used
+    [x] Script for Workspace
+    [x] Script for external Addons used
     [] Reverse enginering to PH add on
     [] Reverse enginering to BG
     [] Reverse enginering Daz material add on
