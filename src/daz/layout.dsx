@@ -1,0 +1,292 @@
+<DAZStudioLayout Version="1.1.0.0">
+ <Description></Description>
+ <ActivityBar Enabled="Off"/>
+ <ActiveLayout Name="Advanced"/>
+ <AlwaysOnTop On="no"/>
+ <LessonStrip folderName="City Limits Lite"/>
+ <Layout Label="Advanced">
+  <Description>Advanced Layout</Description>
+  <ViewTool>DzUniversalTranslateTool</ViewTool>
+  <ViewportLayout>Single</ViewportLayout>
+  <ViewportRatios H0="0.5" H1="0.33" H2="0.53" V0="0.5" V1="0.33" V2="0.53"/>
+  <Viewports>
+   <View ShowAspect="yes" AutoHideViewControls="no" AutoHideViewOptions="no" FloorStyle="WireFloor" Camera="PerspectiveView" CameraCubeShown="yes" ShowAxes="no" ToolbarMode="1" ShowThirdsGuide="no" ShadeStyle="SmoothShaded" BGColor="#444444" UserStyle="DzSmoothShadedStyle" Index="0" ShowPoseTool="yes"/>
+   <View ShowAspect="yes" AutoHideViewControls="no" AutoHideViewOptions="no" FloorStyle="WireFloor" Camera="FrontView" CameraCubeShown="yes" ShowAxes="no" ToolbarMode="1" ShowThirdsGuide="no" ShadeStyle="Textured" BGColor="#444444" UserStyle="DzTexturedStyle" Index="1" ShowPoseTool="yes"/>
+   <View ShowAspect="yes" AutoHideViewControls="no" AutoHideViewOptions="no" FloorStyle="WireFloor" Camera="LeftView" CameraCubeShown="yes" ShowAxes="no" ToolbarMode="1" ShowThirdsGuide="no" ShadeStyle="Textured" BGColor="#444444" UserStyle="DzTexturedStyle" Index="2" ShowPoseTool="yes"/>
+   <View ShowAspect="yes" AutoHideViewControls="no" AutoHideViewOptions="no" FloorStyle="WireFloor" Camera="TopView" CameraCubeShown="yes" ShowAxes="no" ToolbarMode="1" ShowThirdsGuide="no" ShadeStyle="Textured" BGColor="#444444" UserStyle="DzTexturedStyle" Index="3" ShowPoseTool="yes"/>
+  </Viewports>
+  <PaneGroup PreferredLength="986" Column="0" MinimizeColumn="no" Location="Left" Index="0" PreferredDepth="670">
+   <Pane Current="yes" Class="DzContentLibraryPane" Minimized="no"/>
+   <Pane Current="no" Class="DzRenderSettingsPane" Minimized="no"/>
+  </PaneGroup>
+  <PaneGroup PreferredLength="493" Column="0" MinimizeColumn="no" Location="Right" Index="1" PreferredDepth="613">
+   <Pane Current="yes" Class="DzParametersPane" Minimized="no"/>
+   <Pane Current="no" Class="DzShapingPane" Minimized="no"/>
+   <Pane Current="no" Class="DzPosingPane" Minimized="no"/>
+   <Pane Current="no" Class="DzSurfacesPane" Minimized="no"/>
+  </PaneGroup>
+  <PaneGroup PreferredLength="1876" Column="0" MinimizeColumn="no" Location="Center" Index="0" PreferredDepth="719">
+   <Pane Current="yes" Class="DzViewportMgrPane" Minimized="no"/>
+   <Pane Current="no" Class="DzRenderLibraryPane" Minimized="no"/>
+  </PaneGroup>
+  <PaneGroup PreferredLength="493" Column="0" MinimizeColumn="no" Location="Right" Index="0" PreferredDepth="613">
+   <Pane Current="yes" Class="DzHierarchyPane" Minimized="no"/>
+  </PaneGroup>
+  <WindowState>000000ff00000000fd00000000000009d8000003da00000004000000040000000800000008fc0000000400000000000000010000000a0054006f006f006c00730300000000ffffffff000000000000000000000003000000000000000300000001000000120053007400610074007500730042006100720100000000ffffffff00000000000000000000000300000000</WindowState>
+  <ToolBar Name="Tools" Location="Left"/>
+  <Pane Class="DzCameraPane"/>
+  <Pane Class="DzHelpPane">
+   <Setting Type="Int" Key="HelpNavDividerExtent">200</Setting>
+  </Pane>
+  <Pane Class="DzHierarchyPane">
+   <Setting Type="Bool" Key="ShowFigures">yes</Setting>
+   <Setting Type="Bool" Key="ShowObjects">yes</Setting>
+   <Setting Type="Bool" Key="ShowLights">yes</Setting>
+   <Setting Type="Bool" Key="ShowCameras">yes</Setting>
+   <Setting Type="Bool" Key="ShowDForms">yes</Setting>
+   <Setting Type="Bool" Key="ShowIKChains">yes</Setting>
+   <Setting Type="Bool" Key="ShowHidden">no</Setting>
+   <Setting Type="Bool" Key="ParentInPlace">yes</Setting>
+   <Setting Type="String" Key="Sorting">None</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">-41</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">2</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">1</Setting>
+  </Pane>
+  <Pane Class="DzRenderSettingsPane">
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+  </Pane>
+  <Pane Class="DzSimulationSettingsPane">
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">0</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+  </Pane>
+  <Pane Class="DzSurfacesPane">
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Bool" Key="ShowHidden">no</Setting>
+   <Setting Type="Bool" Key="AutoBakeTexture">no</Setting>
+   <Setting Type="Bool" Key="UseBake">no</Setting>
+   <Setting Type="Int" Key="DisplayMode">1</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">yes</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Bool" Key="ShowRecursiveGroups">yes</Setting>
+  </Pane>
+  <Pane Class="DzWidgetMapPane"/>
+  <Pane Class="DzViewportMgrPane"/>
+  <Pane Class="DzAuxViewportPane">
+   <Setting Type="String" Key="ActiveCamera">PerspectiveView</Setting>
+   <Setting Type="Bool" Key="AxesOn">no</Setting>
+   <Setting Type="Bool" Key="AspectOn">yes</Setting>
+   <Setting Type="Bool" Key="ThirdsGuideOn">no</Setting>
+   <Setting Type="Bool" Key="PoseToolOn">no</Setting>
+   <Setting Type="Int" Key="ToolBarMode">1</Setting>
+   <Setting Type="Int" Key="FloorStyle">1</Setting>
+   <Setting Type="Int" Key="ShadeStyle">8</Setting>
+   <Setting Type="Bool" Key="CubeShown">no</Setting>
+   <Setting Type="Bool" Key="AutoHideViewOptions">yes</Setting>
+   <Setting Type="Bool" Key="AutoHideViewControls">yes</Setting>
+   <Setting Type="Bool" Key="ShowToolbar">no</Setting>
+  </Pane>
+  <Pane Class="DzEnvironmentPane">
+   <Setting Type="Int" Key="InfoTabHeight">137</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+  </Pane>
+  <Pane Class="DzDrawSettingsPane">
+   <Setting Type="Int" Key="CurrentTab">0</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+  </Pane>
+  <Pane Class="DzScriptPane"/>
+  <Pane Class="DzAlignPane"/>
+  <Pane Class="DzBatchConvertPane"/>
+  <Pane Class="DzParametersPane">
+   <Setting Type="Int" Key="GroupExpansionMode">0</Setting>
+   <Setting Type="Int" Key="EditorIndex">1</Setting>
+   <Setting Type="Bool" Key="ShowHidden">no</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">2</Setting>
+   <Setting Type="Bool" Key="DisplaySeparate">yes</Setting>
+   <Setting Type="Bool" Key="ShowFollowers">yes</Setting>
+   <Setting Type="Bool" Key="ConsolidateProperties">yes</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">165</Setting>
+   <Setting Type="Bool" Key="ShowRecursiveGroups">yes</Setting>
+  </Pane>
+  <Pane Class="DzPosingPane">
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Int" Key="EditorIndex">1</Setting>
+   <Setting Type="Bool" Key="ShowHidden">no</Setting>
+   <Setting Type="Bool" Key="DisplaySeparate">yes</Setting>
+   <Setting Type="Bool" Key="ShowFollowers">yes</Setting>
+   <Setting Type="Bool" Key="MultiSelectHidden">no</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">yes</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Bool" Key="ShowRecursiveGroups">yes</Setting>
+  </Pane>
+  <Pane Class="DzCamerasPane">
+   <Setting Type="Bool" Key="SyncWithScene">yes</Setting>
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Int" Key="EditorIndex">1</Setting>
+   <Setting Type="Bool" Key="ShowHidden">no</Setting>
+   <Setting Type="Bool" Key="DisplaySeparate">no</Setting>
+   <Setting Type="Bool" Key="ShowFollowers">no</Setting>
+   <Setting Type="Bool" Key="MultiSelectHidden">no</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Bool" Key="ShowRecursiveGroups">yes</Setting>
+  </Pane>
+  <Pane Class="DzLightsPane">
+   <Setting Type="Bool" Key="SyncWithScene">yes</Setting>
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Int" Key="EditorIndex">1</Setting>
+   <Setting Type="Bool" Key="ShowHidden">no</Setting>
+   <Setting Type="Bool" Key="DisplaySeparate">no</Setting>
+   <Setting Type="Bool" Key="ShowFollowers">no</Setting>
+   <Setting Type="Bool" Key="MultiSelectHidden">no</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Bool" Key="ShowRecursiveGroups">yes</Setting>
+  </Pane>
+  <Pane Class="DzShapingPane">
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Int" Key="EditorIndex">1</Setting>
+   <Setting Type="Bool" Key="ShowHidden">no</Setting>
+   <Setting Type="Bool" Key="DisplaySeparate">yes</Setting>
+   <Setting Type="Bool" Key="ShowFollowers">yes</Setting>
+   <Setting Type="Bool" Key="MultiSelectHidden">no</Setting>
+   <Setting Type="Int" Key="EditorNavDividerExtent">135</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+   <Setting Type="Bool" Key="SyncSelection">yes</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">yes</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Bool" Key="ShowRecursiveGroups">yes</Setting>
+  </Pane>
+  <Pane Class="DzToolPane"/>
+  <Pane Class="DzContentLibraryPane">
+   <Setting Type="Int" Key="ContainerViewMode">2</Setting>
+   <Setting Type="Bool" Key="ContainerViewCollapsible">no</Setting>
+   <Setting Type="Bool" Key="ContainerListMinimized">no</Setting>
+   <Setting Type="Int" Key="ContainerListHeight">226</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+   <Setting Type="Bool" Key="AssetSearchMinimized">yes</Setting>
+   <Setting Type="Int" Key="AssetSearchHeight">150</Setting>
+   <Setting Type="Int" Key="AssetFileSearchOptions">1310512</Setting>
+   <Setting Type="Int" Key="AssetDBSearchOptions">1310512</Setting>
+   <Setting Type="Int" Key="AssetSearchMode">1</Setting>
+   <Setting Type="String" Key="CurrentContainer">???Studio???D:/4TB-backup/daz_studioFormats???D:/4TB-backup/daz_studioFormats/AppData???D:/4TB-backup/daz_studioFormats/AppData/DAZ 3D???D:/4TB-backup/daz_studioFormats/AppData/DAZ 3D/Studio4???D:/4TB-backup/daz_studioFormats/AppData/DAZ 3D/Studio4/RunOnce</Setting>
+  </Pane>
+  <Pane Class="DzDFormPane"/>
+  <Pane Class="DzFigureSetupPane">
+   <Setting Type="Int" Key="GeomDividerExtent">135</Setting>
+   <Setting Type="Int" Key="IKDividerExtent">135</Setting>
+  </Pane>
+  <Pane Class="OptClothPane"/>
+  <Pane Class="DzPropertyHierarchyPane"/>
+  <Pane Class="DzPuppeteerPane"/>
+  <Pane Class="DzRendAlbumPane"/>
+  <Pane Class="DzRenderLibraryPane">
+   <Setting Type="Int" Key="InfoTabHeight">210</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">1</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+  </Pane>
+  <Pane Class="DzScriptedStepsPane"/>
+  <Pane Class="DzShaderBuilder"/>
+  <Pane Class="DzShaderBuilderPane"/>
+  <Pane Class="DzRSLEditorPane"/>
+  <Pane Class="DzShaderMixerPane"/>
+  <Pane Class="DzSmartContentPane">
+   <Setting Type="Bool" Key="SyncCategorySelection">yes</Setting>
+   <Setting Type="Bool" Key="SyncFilterText">no</Setting>
+   <Setting Type="Bool" Key="SyncFilterContext">yes</Setting>
+   <Setting Type="Int" Key="CurrentTab">1</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">0</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+   <Setting Type="Bool" Key="FileContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="FileContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="FileContentTab/FilterByContext">yes</Setting>
+   <Setting Type="Int" Key="FileContentTab/Sorting">1</Setting>
+   <Setting Type="Bool" Key="ProductContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="ProductContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Bool" Key="ProductContentTab/FilterByContext">yes</Setting>
+   <Setting Type="Int" Key="ProductContentTab/Sorting">1</Setting>
+   <Setting Type="Int" Key="ProductContentTab/InstallStateFilterFlags">31</Setting>
+  </Pane>
+  <Pane Class="DzInstallPane">
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">0</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">1</Setting>
+   <Setting Type="Bool" Key="ProductContentTab/SideNavDividerCollapsible">no</Setting>
+   <Setting Type="Int" Key="ProductContentTab/SideNavDividerExtent">135</Setting>
+   <Setting Type="Int" Key="ProductContentTab/Sorting">2</Setting>
+   <Setting Type="Int" Key="ProductContentTab/InstallStateFilterFlags">2</Setting>
+  </Pane>
+  <Pane Class="DzTimePane">
+   <Setting Type="Bool" Key="AdvancedView">yes</Setting>
+   <Setting Type="Bool" Key="MonitorParametersPane">no</Setting>
+   <Setting Type="Bool" Key="PlayAllFrames">no</Setting>
+   <Setting Type="Bool" Key="GraphOpen">yes</Setting>
+   <Setting Type="Bool" Key="PropTranslate">yes</Setting>
+   <Setting Type="Bool" Key="PropRotate">yes</Setting>
+   <Setting Type="Bool" Key="PropScale">no</Setting>
+   <Setting Type="Bool" Key="PropOther">no</Setting>
+   <Setting Type="Bool" Key="PropAlias">yes</Setting>
+   <Setting Type="Bool" Key="PropHidden">no</Setting>
+   <Setting Type="Bool" Key="ScopeNode">yes</Setting>
+  </Pane>
+  <Pane Class="DzSceneInfoPane"/>
+  <Pane Class="DzPowerPosePane">
+   <Setting Type="Bool" Key="UseManipDrawStyle">yes</Setting>
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">0</Setting>
+   <Setting Type="Int" Key="InfoTabIndex">0</Setting>
+  </Pane>
+  <Pane Class="aniMate"/>
+  <Pane Class="aniMate2Pane1"/>
+  <Pane Class="DzFaceTransferPane">
+   <Setting Type="Int" Key="InfoTabHeight">250</Setting>
+   <Setting Type="Int" Key="InfoTabMinimized">0</Setting>
+  </Pane>
+ </Layout>
+</DAZStudioLayout>
