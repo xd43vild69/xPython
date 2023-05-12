@@ -15,13 +15,13 @@ import bpy
 def ChangeMaterial(materialId):
 #    bpy.ops.mesh.primitive_cube_add()     
     if materialId == 1:
-        prefix = "1D.C" #ClayMaterial
+        prefix = "daz_clay_" #ClayMaterial
     elif materialId == 2:
-        prefix = "1D.M" #MuscleMaterial
+        prefix = "daz_muscle_" #MuscleMaterial
     elif materialId == 3:
-        prefix = "1D." #BaseMaterial
+        prefix = "daz_base_" #BaseMaterial
     elif materialId == 4:
-        prefix = "1D_Z" #BaseMaterial
+        prefix = "daz_zbrush_" #BaseMaterial
 
     #Select object here
     obj = bpy.context.selected_objects[0]
@@ -32,14 +32,14 @@ def ChangeMaterial(materialId):
         sel = bpy.context.selected_objects[0]
         mat = bpy.data
 
-        sel.material_slots[0].material = mat.materials.get(prefix + 'Torso')
-        sel.material_slots[1].material = mat.materials.get(prefix + 'Face')
-        sel.material_slots[2].material = mat.materials.get(prefix + 'Face') #lips
-        sel.material_slots[4].material = mat.materials.get(prefix + 'Face') #ears
-        sel.material_slots[5].material = mat.materials.get(prefix + 'Legs')
-        sel.material_slots[8].material = mat.materials.get(prefix + 'Arms')
-        sel.material_slots[11].material = mat.materials.get(prefix + 'Arms') #Fingernails
-        sel.material_slots[15].material = mat.materials.get(prefix + 'Legs') #Toenails    
+        sel.material_slots[0].material = mat.materials.get(prefix + 'torso')
+        sel.material_slots[1].material = mat.materials.get(prefix + 'face')
+        sel.material_slots[2].material = mat.materials.get(prefix + 'face') #lips
+        sel.material_slots[4].material = mat.materials.get(prefix + 'face') #ears
+        sel.material_slots[5].material = mat.materials.get(prefix + 'legs')
+        sel.material_slots[8].material = mat.materials.get(prefix + 'arms')
+        sel.material_slots[11].material = mat.materials.get(prefix + 'arms') #Fingernails
+        sel.material_slots[15].material = mat.materials.get(prefix + 'legs') #Toenails    
 
 
 #This is the Main Panel (Parent of Panel A and B)
@@ -70,7 +70,7 @@ class MainPanel(bpy.types.Panel):
 
 
 class WM_OT_Clay(bpy.types.Operator):
-    """Open the Add Cube Dialog box"""
+    """Set clay texture to daz object"""
     bl_label = "Add Cube Dialog Box"
     bl_idname = "wm.clay"
     
@@ -82,7 +82,7 @@ class WM_OT_Clay(bpy.types.Operator):
 
     
 class WM_OT_Muscle(bpy.types.Operator):
-    """Open the Add Cube Dialog box"""
+    """Set anatomic texture to daz object"""
     bl_label = "Add Cube Dialog Box"
     bl_idname = "wm.muscle"
     
@@ -94,8 +94,8 @@ class WM_OT_Muscle(bpy.types.Operator):
 
 
 class WM_OT_Base(bpy.types.Operator):
-    """Open the Add Cube Dialog box"""
-    bl_label = "Add Cube Dialog Box"
+    """Set base texture to daz object"""
+    bl_label = "Set basic texture"
     bl_idname = "wm.base"
     
     text = bpy.props.StringProperty(name= "Enter Option", default= "")
@@ -105,7 +105,7 @@ class WM_OT_Base(bpy.types.Operator):
         return {'FINISHED'}
         
 class WM_OT_Zbrush(bpy.types.Operator):
-    """Open the Add Cube Dialog box"""
+    """Set zbrush texture to daz object"""
     bl_label = "Add Cube Dialog Box"
     bl_idname = "wm.zbrush"
     
