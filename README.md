@@ -10,9 +10,9 @@ Base
     [x] Add elements to those collections
     [x] Script for Workspace
     [x] Script for external Addons used
+    [x] Reverse enginering Daz material add on
     [] Reverse enginering to PH add on
-    [] Reverse enginering to BG
-    [] Reverse enginering Daz material add on
+    [] Reverse enginering to BG    
 
 ---
 
