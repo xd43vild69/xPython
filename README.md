@@ -11,8 +11,11 @@ Base
     [x] Script for Workspace
     [x] Script for external Addons used
     [x] Reverse enginering Daz material add on
-    [] Reverse enginering to PH add on
+    [x] Reverse enginering to PH add on
     [] Reverse enginering to BG    
+
+
+![alt text](https://raw.githubusercontent.com/xd43vild69/xPython/main/src/blender/dazToBlenderMatsUDIM.png)
 
 ---
 
