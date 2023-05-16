@@ -51,4 +51,6 @@ https://www.youtube.com/watch?v=Kp4Mvapo5kc
 ---
 `Great Programmers Write Debuggable Code`
 
+![alt text](https://raw.githubusercontent.com/xd43vild69/xPython/main/src/blender/blenderCode.png)
+
 init date : 2023-04-30
