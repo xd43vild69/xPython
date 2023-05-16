@@ -15,7 +15,7 @@ Base
     [] Reverse enginering to BG    
 
 
-![alt text](https://raw.githubusercontent.com/xd43vild69/xPython/main/src/blender/dazToBlenderMatsUDIM.png)
+![alt text](https://raw.githubusercontent.com/xd43vild69/xPython/main/src/blender/dazToBlenderMatsUDIM_C.png)
 
 ---
 
